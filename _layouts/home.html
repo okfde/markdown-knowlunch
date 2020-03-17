@@ -3,6 +3,208 @@ layout: default
 ---
 
 <textarea id="source">
+
+class: center, middle
+
+# Git(Hub), Markdown & Blogposts
+
+Ein Knowlunch mit Gregor und Lisa
+
+Quelle auf [github.com/okfde/markdown-knowlunch](https://github.com/okfde/markdown-knowlunch/)
+
+---
+
+class: center, middle
+
+## Was ist Markdown?
+
+---
+
+## Markdown pt 1
+
+- ist ein Pun auf Markup (dt Auszeichnung)
+
+--
+
+- Markdown ist, wie HT**M**L, YA**M**L oder X**M**L, eine Auszeichnung-"Sprache"
+
+--
+
+- Auszeichnung bedeutet, dass wir der Maschine durch Annotation sagen, dass bestimmte Buchstaben/ Wörter/ Sätze/ Absätze eine besondere Bedeutung haben. Wir zeichnen besondere Bedeutung aus.
+
+--
+
+- Die Auszeichnung sollte *semantisch* sein, also der tatsächlichen Bedeutung entsprechen und Sinn ergeben. Eine Überschrift hat eine andere semantische Bedeutung als fett-hervorgehobener Text, auch wenn sie optisch vielleicht gleich aussehen.
+
+---
+
+HTML
+```html
+<h1>Eine Überschift</h1>
+```
+
+YAML
+```yaml
+title: "Eine Überschift"
+```
+
+XML
+```xml
+<title>Eine Überschrift</title>
+```
+
+Markdown
+```md
+# Eine Überschrift
+```
+
+
+---
+
+## Markdown pt 2
+
+- Markdown stellt ein niedrigschwelliges und sehr menschen- als auch maschinenlesbares Markupformat dar
+
+--
+
+- Wir können Blogposts in Markdown schreiben und als Webseiten ausgeben. Bücher werden in Markdown geschrieben und als Epub oder als Printbuch veröffentlicht. Diese Folien sind in Markdown geschrieben.
+
+--
+
+- Im Tätigkeitsbericht wird euer Markdown zur Webversion in HTML konvertiert und dann als PDF zum Druck für das Finanzamt umgewandelt. Alles was wir brauchten war die erste Ausweisung durch euch!
+
+---
+
+## Markdown pt3
+
+- Wie sieht Markdown nun aus?
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+- Probieren geht über studieren!
+
+[Knowlunch Hackmd](https://hackmd.okfn.de/markdown-knowlunch)
+
+
+---
+
+class: center, middle
+
+## Was ist GitHub?
+
+---
+
+## Git!
+
+- Git ist eine dezentrale Versionsverwaltungssoftware unter der GPL als Freie Software lizensiert
+
+--
+
+- Versionsverwaltung hilft uns dabei, die Geschichte von Dateien in Software und deren Änderungen im Auge zu behalten. Ggf können wir dann zurück springen oder haben zumindest die Sicherheit nichts dauerhaft kaputt zu machen. Versionsveraltung sollte also eigentlich als Teil akademischen Arbeitens an Unis gelehrt werden...
+
+--
+
+- Ein Git-Projekt heisst Repository, es enthält die Dateien selbst und deren Geschichte, die History. Jeder Schritt in der Geschichte ist ein Commit, der die Unterschieden zum vorherigen Commit festhält.
+
+---
+
+class: middle, center
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/llm0ALMCk7I?controls=0&amp;start=96" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## GitHub
+
+- GitHub ist ein Software as a Service (SaaS) Anbieter, dessen Grundprodukt das Hosting von Git-Repositories und ein Web-basiertes Interface zum kollaborativen Arbeiten an den Repositories beinhaltet.
+
+--
+
+- GitHub erfreute sich großer Beliebtheit von Open-Source Communities, weil Hosting für Open-Source Projekte umsonst war. Die Beliebtheit hat einen großen Dämpfer bekommen als GitHub von Microsoft gekauft wurde. GitHubs Software selbst ist closed-source.
+
+--
+
+- Wir nutzen GitHub für alle Projekte, die irgendwie mit Software zu tun haben
+
+---
+
+class: middle, center
+
+
+[Diese Präsentation auf GitHub](https://github.com/okfde/markdown-knowlunch/)
+
+
+---
+
+class: center, middle
+
+# Und wie schreibe ich einen Blogpost?
+
+---
+
+## Statische Seiten
+
+- Fast alle unsere Seiten sind statische Webseiten. Die einzige Ausnahmen sind einige Wordpress-Seiten.
+
+--
+
+- Statisch bedeutet, wir generieren einmal alles HTML (aus Markdown und Templates), was in der Seite gebraucht wird,  in einem Schritt und legen es auf unseren Server, der im Internet erreichbar ist.
+
+- Dh, wenn ihr im OKF Blog auf einem Blogpost klickt, fragt euer Browser unseren Server nach einer Datei and einem Ort, der der URL entsprciht. Unser Server gibt dann nur noch genau diese Datei heraus und fertig.
+
+-  Das ist sehr schnell und beinhaltet wenig Administrierungsaufwand oder Sicherheitsrisiken.
+
+---
+
+## Jekyll oder Hugo?
+
+- Der Großteil unserer statischen Webseiten werden mit Jekyll gebaut, einem Static Site Generator in der Programmiersprache Ruby
+
+--
+
+- Die OKF und auch die neue CfG Seite nutzen den Static Site Generator Hugo, der in Go geschrieben ist.
+
+--
+
+- Welches Tool ist aber eigentlich egal, beide (und viele andere da draussen) nehem genau das gleiche Markdown!
+
+--
+
+- Ihr könnt Blogposts entweder direkt im GitHub Webinterface schreiben oder lokal bei euch auf dem Computer
+
+--
+
+- Um lokal arbeiten zu können müsst ihr mindestens Git installieren. Und dann entweder Jekyll oder Hugo je nachdem welche Seite ihr braucht
+
+---
+
+## Audience Participation
+
+- Diese Knowlunch hat auch ein  [Gästebuch](http://okfde.github.io/markdown-knowlunch/guestbook)!
+
+- Schreibe auf GitHub in das Gästebuch! Hier ist eine Vorlage
+
+
+```text
+---
+title: Das ist die Überschrift
+author: Lisa & Gregor
+---
+
+Hier kommt der Text, alles Markdown!!
+
+```
+
+
+
+---
+
+class: center, middle
+
+'n Guten!
+
+# 🥙 🥤
+
 </textarea>
 
 
